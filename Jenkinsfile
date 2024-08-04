@@ -36,4 +36,10 @@ pipeline {
             }
         }
     }
+
+    post{
+        alayws {
+            jnit 'test-results/jnit.xml'
+        }
+    }
 }
