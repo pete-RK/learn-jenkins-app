@@ -38,7 +38,7 @@ pipeline {
     }
 
     post{
-        alayws {
+        always {
             jnit 'test-results/jnit.xml'
         }
     }
